@@ -1,0 +1,66 @@
+@import "../../vendor/twbs/bootstrap/scss/functions";
+
+$green: #66994e;
+
+$green-100: tint-color($green, 80%);
+$green-125: tint-color($green, 75%);
+$green-150: tint-color($green, 70%);
+$green-175: tint-color($green, 65%);
+$green-200: tint-color($green, 50%);
+$green-300: tint-color($green, 40%);
+$green-350: tint-color($green, 5%);
+
+$white: #fff !default;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
+$black: #000 !default;
+
+@import "../../vendor/twbs/bootstrap/scss/bootstrap";
+
+.bg-success {
+  background-color: $green-200 !important;
+}
+.bg-success-dark {
+  background-color: $green !important;
+}
+
+.btn-success {
+  color: white;
+  &:hover {
+    color: white;
+  }
+}
+
+.btn-outline-success {
+  &:hover {
+    color: white;
+  }
+}
+
+.btn-secondary {
+  color: black;
+  &:hover {
+    color: black;
+    background-color: $gray-300 !important;
+  }
+  background-color: $gray-200 !important;
+}
+
+.bi-pencil-square {
+  &:hover {
+    color: $primary !important;
+  }
+}
+
+.bi-trash-fill {
+  &:hover {
+    color: $danger !important;
+  }
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- #region meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+    <meta name="theme-color" content="#fafafa" />
+    <!-- #endregion -->
+
+    <!-- #region link -->
+    <link rel="icon" href="favicon.ico" sizes="any" />
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icon.png" />
+
+    <link
+      rel="stylesheet"
+      href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="vendor/twbs/bootstrap-icons/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <link rel="manifest" href="manifest.json" />
+    <!-- #endregion -->
+
+    <!-- #region script -->
+    <script src="vendor/twbs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- #endregion -->
+
+    <title>Contact</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-xl bg-white border-bottom py-3 sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img class="image-fluide" src="assets/img/logo-blog.svg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav m-auto">
+            <a class="nav-link link-dark fw-semibold" href="index.html"
+              >Accueil</a
+            >
+            <a class="nav-link link-dark fw-semibold" href="blog.html">Blog</a>
+            <a class="nav-link link-dark fw-semibold" href="a-propos.html"
+              >A Propos</a
+            >
+            <a class="nav-link link-success fw-bold" href="#">Contact</a>
+          </div>
+          <div>
+            <a href="#" class="btn btn-outline-success me-2" role="button"
+              >Se Connecter</a
+            >
+            <a href="#" class="btn btn-success" role="button">S'Inscrire</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <div class="row justify-content-between">
+        <div class="col-5">
+          <h1 class="fw-bold mb-4">Contactez Moi</h1>
+          <p class="mb-5">
+            Have some big idea or brand to develop and need help? Then reach out
+            we'd love to hear about your project and provide help to develop and
+            need
+          </p>
+          <h3 class="fw-bold mb-4">E-mail</h3>
+          <a
+            href="mailto:sebastiendarge@gmail.com"
+            class="nav-link text-decoration-underline"
+            >sebastiendarge@gmail.com</a
+          >
+        </div>
+        <form class="col-5">
+          <div class="my-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Email address</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="name@example.com"
+              maxlength="50"
+              required
+            />
+          </div>
+          <div class="my-3">
+            <label for="formGroupExampleInput" class="form-label">Sujet</label>
+            <input
+              class="form-control"
+              id="sujet"
+              type="text"
+              maxlength="50"
+              required
+            />
+          </div>
+          <div class="my-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Message</label
+            >
+            <textarea
+              class="form-control"
+              id="message"
+              rows="3"
+              maxlength="300"
+              required
+            ></textarea>
+          </div>
+          <div class="m-">
+            <button class="btn btn-success w-100" type="submit">Envoyer</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div
+        class="row row-cols-1 row-cols-md-3 justify-content-center bg-success p-5 pb-0 pb-md-5"
+      >
+        <div class="col text-light bg-success-dark p-5 rounded-1">
+          <h3>S'Inscrire à la Newsletter</h3>
+
+          <form class="row ms-0">
+            <label for="exampleFormControlInput1" class="p-0 form-label"
+              ><h4>E-mail</h4></label
+            >
+
+            <input
+              type="email"
+              id="exampleFormControlInput1"
+              class="form-control bg-success-dark border-0 w-50 p-0 border-bottom border-3 rounded-0 text-light"
+            />
+            <div class="col-5 col-lg-2 mx-auto rounded-1">
+              <button
+                type="submit"
+                class="btn btn-light fw-bold m-0 py-1 text-success"
+                role="button"
+              >
+                S'abonner
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col py-5 p-md-5 ps-md-0 ms-md-5 ms-0 text-center">
+          <h3>Suis moi sur tout mes réseaux</h3>
+          <div class="row d-flex justify-content-center gap-4 mt-5">
+            <i class="col-1 bi bi-instagram fs-2"></i>
+            <i class="col-1 bi bi-facebook fs-2"></i>
+            <i class="col-1 bi bi-twitter fs-2"></i>
+            <i class="col-1 bi bi-pinterest fs-2"></i>
+          </div>
+        </div>
+      </div>
+      <div
+        class="row row-cols-1 row-cols-md-3 justify-content-center bg-success-dark py-2"
+      >
+        <div
+          class="col text-light d-flex justify-content-center align-items-center p-0"
+        >
+          <a href="index.html" class="nav-link fw-semibold me-4">Accueil</a>
+          <a href="blog.html" class="nav-link fw-semibold mx-4">Blog</a>
+          <a href="a-propos.html" class="nav-link fw-semibold mx-4">A Propos</a>
+          <a href="contact.html" class="nav-link fw-semibold ms-4">Contact</a>
+        </div>
+        <div class="col p-0 text-center text-light">
+          <p class="m-0 mt-3 mt-md-0">
+            © Copyrights 2023 • Sébastien Darge • Tous droits réservés
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

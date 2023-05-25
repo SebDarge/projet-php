@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "formulahendry.auto-close-tag",
+        "george-alisson.html-preview-vscode",
+        "pkief.material-icon-theme",
+        "techer.open-in-browser",
+        "bmewburn.vscode-intelephense-client",
+        "mehedidracula.php-namespace-resolver",
+        "rexshi.phpdoc-comment-vscode-plugin",
+        "esbenp.prettier-vscode"
+    ]
+}

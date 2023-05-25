@@ -1,0 +1,23 @@
+{
+    "name": "vendor-name/project-name",
+    "description": "This is a very cool project!",
+    "version": "1.0.0",
+    "type": "project",
+    "keywords": ["blog", "bootstrap"],
+    "homepage": "https://example.com",
+    "time": "yyyy/mm/dd",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "john.doe@example.com",
+            "homepage": "https://www.johndoe.org",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "twbs/bootstrap": "5.2.3",
+        "twbs/bootstrap-icons": "^1.10"
+    }
+}
